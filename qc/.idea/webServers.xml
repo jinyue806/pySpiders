@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60834732-7f9e-41fe-b208-c415e3ad90a3" name="qc" url="http://192.168.1.100">
+        <fileTransfer host="192.168.1.100" port="8080" rootFolder="/home/pyvip/文档/qc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="8080" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
