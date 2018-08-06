@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://192.168.2.147:8000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+    
+    <link rel="stylesheet" href="./首页_files/bootstrap.min.css">
+    <script src="./首页_files/bootstrap.min.js.下载"></script>
+    <script src="./首页_files/jquery-3.3.1.min.js.下载"></script>
+    <style type="text/css">
+    body {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .copyright {
+        background: #111;
+        font-size: 13px;
+        text-align: center;
+        color: #555;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-top: 3px solid;
+    }
+
+    </style>
+</head>
+<body onload="onload()" mpa-version="5.1.2" mpa-extension-id="ibefaeehajgcpooopoegkifhgecigeeg">
+<div class="container"> <!--容器-->
+    <div class="row clearfix"><!--行-->
+        <div class="col-md-12 column"><!--列-->
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <!--导航 反色 固定顶部-->
+                <div class="navbar-header"> <!--标题-->
+                    <a class="navbar-brand" href="http://192.168.2.147:8000/">我的博客</a><!--navbar-header和navbar-brand可以让标题文字大一号-->
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--折叠-->
+                    <ul class="nav navbar-nav"> <!--导航列表-->
+                        <li class="active"> <!--激活的列表项-->
+                            <a href="http://192.168.2.147:8000/">首页</a>
+                        </li>
+                        <li class="dropdown"><!--下拉菜单-->
+                            <a href="http://192.168.2.147:8000/#" class="dropdown-toggle" data-toggle="dropdown">分类<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu"><!--下拉菜单项-->
+                                <li>
+                                    <a href="http://192.168.2.147:8000/category/2">Django</a>
+                                </li>
+                                <li>
+                                    <a href="http://192.168.2.147:8000/category/3">Django</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right " style="padding-right: 20px"><!--导航右侧-->
+                        <li class="active">
+                            <a href="http://192.168.2.147:8000/admin/">登录</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- 顶部导航 -->
+<div class="container"><!-- 容器 -->
+    <div class="row clearfix"><!-- 容器的行 -->
+        <div class="col-md-9 column"><!-- 行中的列:col-md-9表示此列宽度为页面主题宽度的9/12 -->
+            <!--主要内容-->
+             <!--重写内容块-->
+     <!--从分页的对象列表中遍历文章-->
+        <div class="panel panel-default"> <!--显示文章的面板-->
+            <div class="panel-heading"> <!--面板的头部-->
+                <h3 class="panel-title"> <!--放置内容标题-->
+                    <a href="http://192.168.2.147:8000/detail/3">PHP</a>
+                </h3>
+            </div>
+            <div class="panel-body"> <!--面板的主体-->
+                <p>作者：jinyue806 日期：2018年8月6日</p>
+                <p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言。
+
+PHP 是免费的，并且使用非常广泛。同时，对于像微软 ASP 这样的竞争者来说，PHP 无疑是另一种高效率的选项。</p> <!--过滤器用于仅显示200字符和去除HTML标签-->
+                <a class="btn" href="http://192.168.2.147:8000/detail/3">进入阅读 »</a>
+            </div>
+        </div>
+     <!--从分页的对象列表中遍历文章-->
+        <div class="panel panel-default"> <!--显示文章的面板-->
+            <div class="panel-heading"> <!--面板的头部-->
+                <h3 class="panel-title"> <!--放置内容标题-->
+                    <a href="http://192.168.2.147:8000/detail/2">Java</a>
+                </h3>
+            </div>
+            <div class="panel-body"> <!--面板的主体-->
+                <p>作者：jinyue806 日期：2018年8月6日</p>
+                <p>Java 是由Sun Microsystems公司于1995年5月推出的高级程序设计语言。
+
+Java可运行于多个平台，如Windows, Mac OS，及其他多种UNIX版本的系统。
+
+本教程通过简单的实例将让大家更好的了解JAVA编程语言。</p> <!--过滤器用于仅显示200字符和去除HTML标签-->
+                <a class="btn" href="http://192.168.2.147:8000/detail/2">进入阅读 »</a>
+            </div>
+        </div>
+     <!--从分页的对象列表中遍历文章-->
+        <div class="panel panel-default"> <!--显示文章的面板-->
+            <div class="panel-heading"> <!--面板的头部-->
+                <h3 class="panel-title"> <!--放置内容标题-->
+                    <a href="http://192.168.2.147:8000/detail/1">Python</a>
+                </h3>
+            </div>
+            <div class="panel-body"> <!--面板的主体-->
+                <p>作者：jinyue806 日期：2018年8月6日</p>
+                <p>Python是一种解释型、面向对象、动态数据类型的高级程序设计语言。
+
+Python由Guido van Rossum于1989年底发明，第一个公开发行版发行于1991年。
+
+像Perl语言一样, Python 源代码同样遵循 GPL(GNU General Public License)协议。
+
+本教程主要针对Python 2.x版本的学习，如果你使用的是Python 3.x版...</p> <!--过滤器用于仅显示200字符和去除HTML标签-->
+                <a class="btn" href="http://192.168.2.147:8000/detail/1">进入阅读 »</a>
+            </div>
+        </div>
+    
+    <!--分页条-->
+    <ul class="pagination">
+    
+        <li class="disabled"><a>«</a></li> <!--否则禁用前一页按钮-->
+    
+     <!--遍历页码范围-->
+        
+            <li class="active"><a>1</a></li> <!--否则，呈现激活样式-->
+        
+    
+    
+        <li class="disabled"><a>»</a></li> <!--否则禁用下一页按钮-->
+    
+</ul>
+
+        </div>&gt;
+        <div class="col-md-3 column hidden-xs hidden-sm">
+            <!-- 行中的列:col-md-3表示此列宽度为页面主体宽度的3/12；hidden-xs和hidden-sm表示在小屏幕和超小屏幕设备中打开页面时隐藏此列-->
+            <!--侧边栏-->
+            <div class="panel panel-default"> <!--面板 默认样式-->
+    <a href="http://192.168.2.147:8000/#" class="list-group-item active"><!--列表组合的项 激活状态-->
+        站内搜索
+    </a>
+    <div class="list-group-item"><!--列表组合的项-->
+        <form class="bs-example bs-example-form" role="search" action="http://192.168.2.147:8000/search/" method="get"> <!--搜索表单-->
+            <div class="input-group"> <!--输入框组合-->
+                <input type="text" class="form-control" name="key" value="">  <!--输入框 默认值来自key变量-->
+                <span class="input-group-btn"> <!--输入框组合的按钮-->
+                  <button class="btn btn-default" type="submit">  <!--按钮默认样式 类型为表单提交按钮-->
+                            <span class="glyphicon glyphicon-search"></span><!--按钮中的字体图标-->
+                  </button>
+               </span>
+            </div>
+        </form>
+    </div>
+</div>&gt;
+        </div>&gt;
+    </div>&gt;
+</div>&gt;
+<footer>
+    <!--底部的内容-->
+    <div class="copyright"> <!--版权-->
+    <a href="http://www.opython.com/" style="color: #9d9d9d">JY的博客</a> 版权所有，保留一切权利 · 基于Django构建 ·  © 2018
+</div>
+</footer>&gt;
+
+<div class="mpa-sc account-switcher" data-z="100" style="display: block;"></div><div class="mpa-sc article-gatherer new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-article-gatherer"></div><div class="mpa-sc image-gatherer new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-image-gatherer"></div><div class="mpa-sc page-clipper new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-page-clipper"></div><div class="mpa-sc mp-analysis-datas-gatherer new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-mp-analysis-datas-gatherer"></div><div class="mpa-sc notifier new mpa-rootsc" data-z="110" style="display: block;" id="mpa-rootsc-notifier"></div><div id="naptha_container0932014_0707" style="position: absolute; top: 0px; left: 0px;"></div></body></html>
